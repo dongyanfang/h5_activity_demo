@@ -1,0 +1,106 @@
+
+.main3{
+  width:100%;
+  height:auto;
+  background:url("../images/predict_bg.png") no-repeat;
+  background-size: 100% 100%;
+  background-attachment:fixed;
+}
+.rule{
+    color:#fff;
+    display:inline-block;
+    position:absolute;
+    width:1rem;
+    font-size:0.35rem;
+    text-align:center;
+    right:0.5rem;
+    top:0.2rem;
+}
+.calendar{
+	position:absolute;
+	left:0.42rem;
+	top:5rem;
+    width:92%;
+    height:11.8rem;
+}
+.tip{
+	width:3.4rem;
+	height:0.8rem;
+	color:#fff;
+	line-height:0.8rem;
+	text-align:center;
+	border:2px solid #c35aff;
+	background-color:#a22fff;
+	border-radius:3rem;
+	margin-left:0.4rem;
+	margin-top:0.3rem;
+	font-size:0.4rem;
+	font-weight:bold;
+	text-shadow:0.05rem 0.05rem #000;
+	display:inline-block;
+	}
+.calendar .count_main{
+	display:inline-block;
+    color:#f4e1ff;
+    height:1.2rem;
+    margin-left:0.1rem;
+    line-height:1.2rem;
+}
+.calendar .count_main p{
+  display:inline-block;
+  font-size:0.35rem;
+}
+.calendar .count_main p span{
+  display:inline-block;
+  height:0.5rem;
+  line-height:0.5rem;
+  margin:0 0.03rem;
+  width:0.4rem;
+  text-align:center;
+  box-shadow:1px 1px #571195;
+  border-radius:0.1rem;
+  background:#696976 url(../images/time_center.png) repeat-x left  center;
+  color: #faf1ff;
+  font-weight:bold;
+}
+.datelist{
+	width:100%;
+	height:auto;
+}
+.datelist ul li{
+	padding-top:0.4rem;
+	display:inline-block;
+	width:48.9%;
+	height:3rem;
+	text-align:center;
+	border-right:1px solid #ececeb;
+	border-top:1px solid #ececeb;
+}
+.datelist ul .li_active{
+	background: #f5eef7;
+}
+.date{
+	color:#d04d5b;
+	font-size:0.6rem;
+	margin-top:5rem;
+	}
+.datelist ul li p{
+	color:#acacab;
+	font-size:0.3rem;
+}
+.datelist ul li button{
+	display:block;
+	width:3rem;
+	height:1rem;
+	margin:0 auto;
+	background:#fcfbfa;
+	border:1px solid #d5a5f0;
+	border-radius:0.1rem;
+	margin-top:0.2rem;
+	font-size:0.35rem;
+	color:#8e02dd;
+}
+.datelist ul li .active{
+	background:#8e02dd;
+	color:#fcfbfa;
+}
